@@ -27,7 +27,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           cache: npm
-
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
       - name: Install dependencies
