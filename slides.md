@@ -40,3 +40,27 @@ hideInToc: true
 ---
 
 # Table of contents
+
+---
+src: ./pages/intro.md
+---
+
+---
+src: ./pages/compare.md
+---
+
+---
+src: ./pages/installation.md
+---
+
+---
+src: ./pages/sample-code.md
+---
+
+---
+src: ./pages/when-to-use.md
+---
+
+---
+src: ./pages/pros-and-cons.md
+---

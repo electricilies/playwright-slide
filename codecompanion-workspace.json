@@ -1,0 +1,6 @@
+{
+  "$schema": "https://raw.githubusercontent.com/olimorris/codecompanion.nvim/refs/heads/main/lua/codecompanion/workspace-schema.json",
+  "name": "Playwright Slide",
+  "version": "0.0.0",
+  "system_prompt": "You are proficient in Playwright, an end-to-end test framework for modern web apps."
+}
