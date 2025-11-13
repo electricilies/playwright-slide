@@ -11,15 +11,8 @@ const config: PlaywrightTestConfig = {
         },
       },
     },
-    {
-      name: "chromium",
-      use: {
-        browserName: "chromium",
-      },
-    },
   ],
   use: {
-    baseURL: "https://www.saucedemo.com/",
     // headless: false,
     screenshot: "on",
     video: "on",

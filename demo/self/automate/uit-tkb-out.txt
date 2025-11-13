@@ -1,0 +1,88 @@
+node ./automate/uit-tkb.js
+Navigating to https://student.uit.edu.vn/...
+Filling in username...
+Filling in password...
+Solving CAPTCHA...
+CAPTCHA answer: false
+Logging in...
+Navigating to schedule page...
+
+Extracting course information...
+
+=== MATCHING COURSES ===
+
+SE358.Q12Qu ản lý dự án Phát triển Phần mềm
+  08/09/25 ->
+  27/12/25
+  VN
+  Room: C314
+  Size: 71
+---
+SE113.Q11Ki ểm chứng phần mềm
+  08/09/25 ->
+  29/11/25
+  VN
+  Room: C314
+  Size: 80
+---
+SE313.Q11M ột số thuật toán thông minh
+  08/09/25 ->
+  01/11/25
+  VN
+  Room: B4.10
+  Size: 55
+---
+PE231.Q15Gi áo dục thể chất 1
+  08/09/25 ->
+  27/12/25
+  VN
+  Room: Phòng Bóng Bàn
+  Size: 60
+---
+SS003.Q12T ư tưởng Hồ Chí Minh
+  08/09/25 ->
+  27/12/25
+  VN
+  Room: B1.14
+  Size: 150
+---
+SE357.Q12K ỹ thuật phân tích yêu cầu
+  08/09/25 ->
+  27/12/25
+  VN
+  Room: C314
+  Size: 76
+---
+SE113.Q11.1 Kiểm chứng phần mềm
+  08/09/25 ->
+  27/12/25
+  VN
+  Size: 80Tiết 5 ngày 2025-09-24, P. C314
+Tiết 5 ngày 2025-10-01, P. C314
+Tiết 5 ngày 2025-10-08, P. C314
+Tiết 5 ngày 2025-10-15, P. C314
+Tiết 5 ngày 2025-10-22, P. C314
+Tiết 5 ngày 2025-10-29, P. C314
+Tiết 5 ngày 2025-11-12, P. C314
+Tiết 5 ngày 2025-11-19, P. C314
+Tiết 5 ngày 2025-11-26, P. C314
+---
+SE357.Q12.1 Kỹ thuật phân tích yêu cầu
+  08/09/25 ->
+  27/12/25
+  VN
+  Size: 76Tiết 2,3,4,5 ngày 2025-09-22, P. B6.02
+Tiết 2,3,4,5 ngày 2025-09-29, P. B6.02
+Tiết 2,3,4 ngày 2025-10-06, P. C214
+---
+SE358.Q12.1 Quản lý dự án Phát triển Phần mềm
+  08/09/25 ->
+  27/12/25
+  VN
+  Size: 71Tiết 4,5 ngày 2025-10-13, P. C314
+Tiết 4,5 ngày 2025-10-20, P. C314
+Tiết 5 ngày 2025-10-06, P. C314
+---
+
+=== SCRAPING COMPLETED ===
+

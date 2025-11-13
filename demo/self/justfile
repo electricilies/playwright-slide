@@ -1,2 +1,5 @@
 automate-uit-tkb:
   node ./automate/uit-tkb.js
+
+test *args="":
+  npx playwright test {{args}}
