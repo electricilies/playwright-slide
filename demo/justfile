@@ -1,0 +1,2 @@
+automate-uit-tkb:
+  node ./automate/uit-tkb.js

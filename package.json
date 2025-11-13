@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "prettier-plugin-slidev": "^1.0.5"
-  }
+  },
+  "workspaces": [
+    "demo"
+  ]
 }

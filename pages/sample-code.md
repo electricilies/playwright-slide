@@ -16,18 +16,23 @@ hideInToc: true
 
 ```javascript
 // filepath: tests/example.spec.js
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test';
 
-test('basic navigation test', async ({ page }) => {
-  // Navigate to URL
-  await page.goto('https://example.com');
+test('has title', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
 
-  // Interact with elements
-  await page.click('text=More information');
+  // Expect a title "to contain" a substring.
+  await expect(page).toHaveTitle(/Playwright/);
+});
 
-  // Assertions
-  await expect(page).toHaveURL(/.*iana/);
-  await expect(page.locator('h1')).toHaveText('IANA');
+test('get started link', async ({ page }) => {
+  await page.goto('https://playwright.dev/');
+
+  // Click the get started link.
+  await page.getByRole('link', { name: 'Get started' }).click();
+
+  // Expects page to have a heading with the name of Installation.
+  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
 ```
 
