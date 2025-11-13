@@ -1,0 +1,3 @@
+[submodule "microsoft-playwright-examples"]
+	path = demo/microsoft-playwright-examples
+	url = https://github.com/microsoft/playwright-examples
