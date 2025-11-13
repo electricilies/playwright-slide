@@ -17,11 +17,11 @@ const config: PlaywrightTestConfig = {
     screenshot: "on",
     video: "on",
     launchOptions: {
-      // slowMo: 1000
+      slowMo: 1000,
     },
   },
   reporter: [
-    ["line"],
+    ["json"],
     [
       "html",
       {
