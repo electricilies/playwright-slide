@@ -12,7 +12,38 @@ Getting Playwright up and running
 hideInToc: true
 ---
 
-### Installation & Setup
+### Language Support
+
+Playwright officially supports multiple languages:
+
+<div class="grid grid-cols-2 gap-4 mt-4">
+
+<div v-click>
+
+#### Official (by Microsoft)
+- **JavaScript/TypeScript** - Most mature
+- **Python** - Feature parity
+- **.NET** (C#/F#) - Full support
+- **Java** - Enterprise ready
+
+</div>
+
+<div v-click>
+
+#### Community Supported
+- **Go** - golang-playwright
+- **Ruby** - playwright-ruby
+- **Others** - Growing ecosystem
+
+</div>
+
+</div>
+
+---
+hideInToc: true
+---
+
+### Installation & Setup - JavaScript/TypeScript
 
 **Initialize Playwright in your project:**
 
@@ -166,5 +197,40 @@ pnpm exec playwright show-report
 - 📸 Screenshots and videos
 - 🔍 Trace files for debugging
 - 📈 Performance metrics
+
+</v-click>
+
+---
+hideInToc: true
+---
+
+### Installation - Other Languages
+
+**Python:**
+```bash
+pip install playwright
+playwright install
+```
+
+<v-click>
+
+**.NET:**
+```bash
+dotnet add package Microsoft.Playwright
+pwsh bin/Debug/net6.0/playwright.ps1 install
+```
+
+</v-click>
+
+<v-click>
+
+**Java (Maven):**
+```xml
+<dependency>
+  <groupId>com.microsoft.playwright</groupId>
+  <artifactId>playwright</artifactId>
+  <version>1.40.0</version>
+</dependency>
+```
 
 </v-click>

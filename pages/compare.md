@@ -18,6 +18,7 @@ hideInToc: true
 |---------|-----------|----------|
 | **Release Year** | 2020 | 2004 |
 | **Maintained By** | Microsoft | Open Source Community |
+| **Language Support** | JavaScript, Python, .NET, Java (official) + Go (community) | Multiple (Java, Python, C#, Ruby, etc.) |
 | **Browser Support** | Chromium, Firefox, WebKit | Chrome, Firefox, Safari, Edge, IE |
 | **Architecture** | Browser DevTools Protocol | WebDriver Protocol |
 

@@ -20,9 +20,16 @@ hideInToc: true
 - **Modernizing legacy test suites** with better reliability
 - **CI/CD pipeline automation** with Docker support
 - **Projects with cross-browser requirements** (Chrome, Firefox, Safari)
-- **JavaScript/TypeScript tech stack** teams
+- **Multi-language teams** (JavaScript, Python, .NET, Java)
 
 </v-clicks>
+
+<div v-click class="mt-4 p-4 bg-green-50 rounded text-sm">
+
+✨ **Official language support:** JavaScript/TypeScript, Python, .NET (C#/F#), Java<br>
+🌟 **Community support:** Go, Ruby, and others
+
+</div>
 
 ---
 hideInToc: true
@@ -35,6 +42,7 @@ hideInToc: true
 <div v-click>
 
 #### Primary Use Cases
+
 - **E2E functional testing**
 - **Integration testing** (frontend + backend)
 - **Visual regression testing**
@@ -45,6 +53,7 @@ hideInToc: true
 <div v-click>
 
 #### Additional Capabilities
+
 - **Performance testing** (basic metrics)
 - **Accessibility testing** (with axe integration)
 - **Mobile emulation** testing
@@ -64,14 +73,21 @@ hideInToc: true
 
 **Beyond Testing:**
 
-- 🕷️ **Web scraping** - Data extraction from websites
-- 📄 **PDF generation** - Automated document creation
-- 📸 **Screenshot capture** - Visual documentation
-- 🤖 **Automated social media interactions**
-- 📝 **Form submission automation**
-- 🔄 **Content migration** - Bulk data operations
+- 🕷️ **Web scraping** - Extract data from dynamic websites with JavaScript rendering
+- 📄 **PDF generation** - Automated document creation from web pages
+- 📸 **Screenshot capture** - Visual documentation and monitoring
+- 🤖 **Browser automation** - Social media interactions, form submissions
+- 🔄 **Content migration** - Bulk data operations across web platforms
+- 📊 **Data collection** - Automated information gathering and monitoring
+- 🎯 **Task automation** - Repetitive web-based workflows
 
 </v-clicks>
+
+<div v-click class="mt-4 p-4 bg-blue-50 rounded text-sm">
+
+💡 **Why Playwright excels at automation:** Built-in waiting mechanisms, network interception, and browser context isolation make it more reliable than traditional scraping tools.
+
+</div>
 
 ---
 hideInToc: true
@@ -87,8 +103,10 @@ hideInToc: true
 - Need for **fast, reliable tests** with minimal flakiness
 - Existing **CI/CD pipeline** infrastructure
 - **Cross-browser testing** requirements (including Safari/WebKit)
-- Teams comfortable with **JavaScript/TypeScript**
+- Teams using **JavaScript, Python, .NET, or Java** tech stacks
 - Projects requiring **network control** and API mocking
+- Need for **web scraping** with reliable JavaScript rendering
+- **Automation workflows** beyond traditional testing
 
 </v-clicks>
 

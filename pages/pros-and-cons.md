@@ -49,11 +49,12 @@ hideInToc: true
 <v-clicks>
 
 - **📚 Excellent documentation** - Comprehensive and well-maintained
-- **💻 TypeScript support** - First-class type definitions
+- **💻 Multi-language support** - Official: JS/TS, Python, .NET, Java; Community: Go
 - **🔍 Powerful debugging** - Trace viewer, inspector, and codegen tools
 - **🐳 CI/CD friendly** - Docker images and parallel execution ready
 - **🚀 Active development** - Frequent updates from Microsoft
 - **🤖 MCP support** - Official Model Context Protocol server
+- **🕷️ Automation versatility** - Excellent for scraping, task automation, and beyond testing
 
 </v-clicks>
 
@@ -66,8 +67,9 @@ hideInToc: true
 <v-clicks>
 
 - **📦 Browser storage** - Downloads ~300-400MB browsers during install
-- **🔧 Node.js dependency** - Requires Node.js 18+ for latest features
-  - Python/.NET/Java available but Node.js is most mature
+- **🔧 Runtime dependency** - Requires Node.js 18+ (JS/TS), Python 3.8+, .NET 6.0+, or Java 8+
+  - JavaScript/TypeScript implementation is most mature
+  - Python, .NET, and Java are officially supported with feature parity
 - **💾 Resource intensive** - Parallel tests consume significant memory
 - **🗂️ Storage requirements** - Need space for browser binaries
 
