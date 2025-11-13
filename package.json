@@ -16,6 +16,8 @@
     "prettier-plugin-slidev": "^1.0.5"
   },
   "workspaces": [
-    "demo"
+    "demo/self",
+    "demo/microsoft-playwright-examples",
+    "demo/monikakonieczna-playwright-ts-project"
   ]
 }
