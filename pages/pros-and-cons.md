@@ -14,44 +14,44 @@ hideInToc: true
 
 ### ✅ Advantages - Speed & Reliability
 
-- **⚡ Fast execution** - Uses browser DevTools protocol for direct communication
-- **🎯 Reliable** - Auto-waits reduce flakiness significantly
-- **🔄 No driver management** - Browsers bundled and auto-updated
-- **⏱️ Smart waiting** - Automatically waits for elements to be actionable
-- **📊 Parallel execution** - Native support for running tests simultaneously
+- **Fast execution** - Uses browser DevTools protocol for direct communication
+- **Reliable** - Auto-waits reduce flakiness significantly
+- **No driver management** - Browsers bundled and auto-updated
+- **Smart waiting** - Automatically waits for elements to be actionable
+- **Parallel execution** - Native support for running tests simultaneously
 
 ---
 hideInToc: true
 ---
 
-### ✅ Advantages - Modern Architecture
+### Advantages - Modern Architecture
 
-- **🏗️ Built for modern web** - SPAs, PWAs, and dynamic applications
-- **🌐 True cross-browser** - Safari/WebKit testing on all platforms
-- **🔌 Network control** - Mock APIs, intercept requests, modify responses
-- **📦 All-in-one** - Testing, assertions, and reporting included
-- **🎨 Browser contexts** - Isolated test environments without full browser restart
+- **Built for modern web** - SPAs, PWAs, and dynamic applications
+- **True cross-browser** - Safari/WebKit testing on all platforms
+- **Network control** - Mock APIs, intercept requests, modify responses
+- **All-in-one** - Testing, assertions, and reporting included
+- **Browser contexts** - Isolated test environments without full browser restart
 
 ---
 hideInToc: true
 ---
 
-### ✅ Advantages - Developer Experience
+### Advantages - Developer Experience
 
-- **📚 Excellent documentation** - Comprehensive and well-maintained
-- **💻 Multi-language support** - Official: JS/TS, Python, .NET, Java; Community: Go
-- **🔍 Powerful debugging** - Trace viewer, inspector, and codegen tools
-- **🐳 CI/CD friendly** - Docker images and parallel execution ready
-- **🚀 Active development** - Frequent updates from Microsoft
-- **🤖 MCP support** - Official Model Context Protocol server
-- **🕷️ Automation versatility** - Excellent for scraping, task automation, and beyond testing
+- **Excellent documentation** - Comprehensive and well-maintained
+- **Multi-language support** - Official: JS/TS, Python, .NET, Java; Community: Go
+- **Powerful debugging** - Trace viewer, inspector, and codegen tools
+- **CI/CD friendly** - Docker images and parallel execution ready
+- **Active development** - Frequent updates from Microsoft
+- **MCP support** - Official Model Context Protocol server
+- **Automation versatility** - Excellent for scraping, task automation, and beyond testing
 
 ---
 hideInToc: true
 layout: two-cols-header
 ---
 
-### ✅ Advantages - Developer Experience
+### Advantages - Developer Experience
 
 #### Github action manifest
 
@@ -106,7 +106,7 @@ layout: figure
 figureUrl: https://user-images.githubusercontent.com/13063165/183423783-58bf2008-514e-4f96-9c12-c9a55703960c.png
 ---
 
-### ✅ Advantages - Developer Experience
+### Advantages - Developer Experience
 
 #### Github action workflow run
 
@@ -114,27 +114,27 @@ figureUrl: https://user-images.githubusercontent.com/13063165/183423783-58bf2008
 hideInToc: true
 ---
 
-### ❌ Limitations - Runtime & Dependencies
+### Limitations - Runtime & Dependencies
 
-- **📦 Browser storage** - Downloads ~300-400MB browsers during install
-- **🔧 Runtime dependency** - Requires Node.js 18+ (JS/TS), Python 3.8+, .NET 6.0+, or Java 8+
+- **Browser storage** - Downloads ~300-400MB browsers during install
+- **Runtime dependency** - Requires Node.js 18+ (JS/TS), Python 3.8+, .NET 6.0+, or Java 8+
   - JavaScript/TypeScript implementation is most mature
   - Python, .NET, and Java are officially supported with feature parity
-- **💾 Resource intensive** - Parallel tests consume significant memory
-- **🗂️ Storage requirements** - Need space for browser binaries
+- **Resource intensive** - Parallel tests consume significant memory
+- **Storage requirements** - Need space for browser binaries
 
 ---
 hideInToc: true
 ---
 
-### ❌ Limitations - Ecosystem & Compatibility
+### Limitations - Ecosystem & Compatibility
 
-- **📖 Learning curve** - Different API from Selenium (migration effort)
-- **👥 Smaller community** - Fewer Stack Overflow answers than Selenium
-- **🧩 Less third-party tools** - Fewer plugins/integrations currently
-- **⚠️ Version compatibility** - Breaking changes between major versions
-- **🚫 No IE support** - Only modern browsers (Chromium, Firefox, WebKit)
-- **🆕 Relatively new** - Less battle-tested than Selenium (2020 vs 2004)
+- **Learning curve** - Different API from Selenium (migration effort)
+- **Smaller community** - Fewer Stack Overflow answers than Selenium
+- **Less third-party tools** - Fewer plugins/integrations currently
+- **Version compatibility** - Breaking changes between major versions
+- **No IE support** - Only modern browsers (Chromium, Firefox, WebKit)
+- **Relatively new** - Less battle-tested than Selenium (2020 vs 2004)
 
 ---
 hideInToc: true
