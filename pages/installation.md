@@ -102,15 +102,11 @@ pnpm exec playwright install --with-deps
 
 :::
 
-<v-click>
-
 **What gets installed:**
 
 - Latest Playwright test runner (~300-400MB browsers)
 - Chromium, Firefox, and WebKit binaries
 - System dependencies for browsers
-
-</v-click>
 
 ---
 hideInToc: true
@@ -220,18 +216,12 @@ pip install playwright
 playwright install
 ```
 
-<v-click>
-
 **.NET:**
 
 ```bash
 dotnet add package Microsoft.Playwright
 pwsh bin/Debug/net6.0/playwright.ps1 install
 ```
-
-</v-click>
-
-<v-click>
 
 **Java (Maven):**
 
@@ -242,5 +232,3 @@ pwsh bin/Debug/net6.0/playwright.ps1 install
   <version>1.40.0</version>
 </dependency>
 ```
-
-</v-click>
