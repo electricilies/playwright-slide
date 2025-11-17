@@ -10,46 +10,50 @@ Writing tests with Playwright
 
 ---
 hideInToc: true
+layout: two-cols-header
 ---
 
 ### Basic Sample Code
 
+::left::
+
 ```javascript
 // filepath: tests/example.spec.js
-import { test, expect } from '@playwright/test';
+import { test, expect } from "@playwright/test";
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test("playwright has title", async ({ page }) => {
+  await page.goto("https://playwright.dev/");
 
-  // Expect a title "to contain" a substring.
+  // Expect a title 'to contain' a substring.
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test("get started link", async ({ page }) => {
+  await page.goto("https://playwright.dev/");
 
   // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+  await page.getByRole("link", { name: "Get started" }).click();
 
   // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Installation" }),
+  ).toBeVisible();
 });
 ```
 
-<v-click>
+::right::
 
 **Key Features:**
+
 - Auto-waiting for elements
 - Simple, readable syntax
 - Built-in assertions
-
-</v-click>
 
 ---
 hideInToc: true
 ---
 
-### Real-World Example - E-commerce Checkout (Part 1)
+### Example - E-commerce Checkout (Part 1)
 
 ```javascript
 // filepath: tests/checkout.spec.js
@@ -67,19 +71,19 @@ test.describe('E-commerce checkout flow', () => {
     await page.goto('/products/laptop');
     await page.click('[data-testid="add-to-cart"]');
     await expect(page.locator('.cart-count')).toHaveText('1');
+
+    // Checkout
+    await page.click('[data-testid="cart-icon"]');
+    await page.click('text=Proceed to Checkout');
 ```
 
 ---
 hideInToc: true
 ---
 
-### Real-World Example - E-commerce Checkout (Part 2)
+### Example - E-commerce Checkout (Part 2)
 
 ```javascript
-    // Checkout
-    await page.click('[data-testid="cart-icon"]');
-    await page.click('text=Proceed to Checkout');
-
     // Fill shipping info
     await page.fill('#address', '123 Main St');
     await page.fill('#city', 'New York');
@@ -107,26 +111,26 @@ hideInToc: true
 
 ```javascript
 // filepath: tests/advanced.spec.js
-const { test, expect } = require('@playwright/test');
+const { test, expect } = require("@playwright/test");
 
-test('API mocking and network interception', async ({ page }) => {
+test("API mocking and network interception", async ({ page }) => {
   // Mock API response
-  await page.route('**/api/products', (route) => {
+  await page.route("**/api/products", (route) => {
     route.fulfill({
       status: 200,
       body: JSON.stringify({
         products: [
-          { id: 1, name: 'Laptop', price: 999 },
-          { id: 2, name: 'Mouse', price: 29 }
+          { id: 1, name: "Laptop", price: 999 },
+          { id: 2, name: "Mouse", price: 29 },
         ],
       }),
     });
   });
 
-  await page.goto('/', { waitUntil: 'networkidle' });
+  await page.goto("/", { waitUntil: "networkidle" });
 
   // Take screenshot
-  await page.screenshot({ path: 'screenshot.png', fullPage: true });
+  await page.screenshot({ path: "screenshot.png", fullPage: true });
 });
 ```
 
@@ -137,7 +141,7 @@ hideInToc: true
 ### Advanced Feature - Parallel Testing
 
 ```javascript
-test('parallel testing with contexts', async ({ browser }) => {
+test("parallel testing with contexts", async ({ browser }) => {
   // Create isolated browser contexts
   const context1 = await browser.newContext();
   const context2 = await browser.newContext();
@@ -147,8 +151,8 @@ test('parallel testing with contexts', async ({ browser }) => {
 
   // Run tests in isolation simultaneously
   await Promise.all([
-    page1.goto('https://example1.com'),
-    page2.goto('https://example2.com'),
+    page1.goto("https://example1.com"),
+    page2.goto("https://example2.com"),
   ]);
 
   // Each context maintains separate state
@@ -156,8 +160,4 @@ test('parallel testing with contexts', async ({ browser }) => {
 });
 ```
 
-<v-click>
-
 **Benefits:** Faster test execution, isolated test environments, no state pollution
-
-</v-click>

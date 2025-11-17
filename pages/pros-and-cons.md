@@ -14,15 +14,11 @@ hideInToc: true
 
 ### ✅ Advantages - Speed & Reliability
 
-<v-clicks>
-
 - **⚡ Fast execution** - Uses browser DevTools protocol for direct communication
 - **🎯 Reliable** - Auto-waits reduce flakiness significantly
 - **🔄 No driver management** - Browsers bundled and auto-updated
 - **⏱️ Smart waiting** - Automatically waits for elements to be actionable
 - **📊 Parallel execution** - Native support for running tests simultaneously
-
-</v-clicks>
 
 ---
 hideInToc: true
@@ -30,23 +26,17 @@ hideInToc: true
 
 ### ✅ Advantages - Modern Architecture
 
-<v-clicks>
-
 - **🏗️ Built for modern web** - SPAs, PWAs, and dynamic applications
 - **🌐 True cross-browser** - Safari/WebKit testing on all platforms
 - **🔌 Network control** - Mock APIs, intercept requests, modify responses
 - **📦 All-in-one** - Testing, assertions, and reporting included
 - **🎨 Browser contexts** - Isolated test environments without full browser restart
 
-</v-clicks>
-
 ---
 hideInToc: true
 ---
 
 ### ✅ Advantages - Developer Experience
-
-<v-clicks>
 
 - **📚 Excellent documentation** - Comprehensive and well-maintained
 - **💻 Multi-language support** - Official: JS/TS, Python, .NET, Java; Community: Go
@@ -56,15 +46,75 @@ hideInToc: true
 - **🤖 MCP support** - Official Model Context Protocol server
 - **🕷️ Automation versatility** - Excellent for scraping, task automation, and beyond testing
 
-</v-clicks>
+---
+hideInToc: true
+layout: two-cols-header
+---
+
+### ✅ Advantages - Developer Experience
+
+#### Github action manifest
+
+::left::
+
+```yaml
+name: Playwright Tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+```
+
+::right::
+
+```yaml
+steps:
+  - uses: actions/checkout@v5
+  - uses: actions/setup-node@v5
+    with:
+      node-version: lts/*
+  - name: Install dependencies
+    run: npm ci
+  - name: Install Playwright Browsers
+    run: npx playwright install --with-deps
+  - name: Run Playwright tests
+    run: npx playwright test
+  - uses: actions/upload-artifact@v4
+    if: ${{ !cancelled() }}
+    with:
+      name: playwright-report
+      path: playwright-report/
+      retention-days: 30
+```
+
+<style>
+.two-cols-header {
+  column-gap: 20px;
+}
+</style>
+
+---
+hideInToc: true
+layout: figure
+figureUrl: https://user-images.githubusercontent.com/13063165/183423783-58bf2008-514e-4f96-9c12-c9a55703960c.png
+---
+
+### ✅ Advantages - Developer Experience
+
+#### Github action workflow run
 
 ---
 hideInToc: true
 ---
 
 ### ❌ Limitations - Runtime & Dependencies
-
-<v-clicks>
 
 - **📦 Browser storage** - Downloads ~300-400MB browsers during install
 - **🔧 Runtime dependency** - Requires Node.js 18+ (JS/TS), Python 3.8+, .NET 6.0+, or Java 8+
@@ -73,15 +123,11 @@ hideInToc: true
 - **💾 Resource intensive** - Parallel tests consume significant memory
 - **🗂️ Storage requirements** - Need space for browser binaries
 
-</v-clicks>
-
 ---
 hideInToc: true
 ---
 
 ### ❌ Limitations - Ecosystem & Compatibility
-
-<v-clicks>
 
 - **📖 Learning curve** - Different API from Selenium (migration effort)
 - **👥 Smaller community** - Fewer Stack Overflow answers than Selenium
@@ -89,8 +135,6 @@ hideInToc: true
 - **⚠️ Version compatibility** - Breaking changes between major versions
 - **🚫 No IE support** - Only modern browsers (Chromium, Firefox, WebKit)
 - **🆕 Relatively new** - Less battle-tested than Selenium (2020 vs 2004)
-
-</v-clicks>
 
 ---
 hideInToc: true
@@ -128,7 +172,7 @@ hideInToc: true
 
 </div>
 
-<div v-click class="mt-6 text-center text-lg">
+<div class="mt-6 text-center text-lg">
 
 **💡 Bottom Line:** Playwright excels in modern web testing with superior reliability, but requires commitment to its ecosystem and resources.
 
