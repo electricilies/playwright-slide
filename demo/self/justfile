@@ -1,3 +1,6 @@
+code-gen output="test/test.spec.ts":
+  npx playwright codegen --output {{output}}
+
 automate-uit-tkb:
   node ./automate/uit-tkb.js
 

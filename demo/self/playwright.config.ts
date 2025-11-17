@@ -21,7 +21,8 @@ const config: PlaywrightTestConfig = {
     },
   },
   reporter: [
-    ["json"],
+    // ["json"],
+    ["line"],
     [
       "html",
       {
