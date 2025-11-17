@@ -12,7 +12,7 @@ Advantages and Limitations of Playwright
 hideInToc: true
 ---
 
-### ✅ Advantages - Speed & Reliability
+### Advantages - Speed & Reliability
 
 - **Fast execution** - Uses browser DevTools protocol for direct communication
 - **Reliable** - Auto-waits reduce flakiness significantly
@@ -146,7 +146,7 @@ hideInToc: true
 
 <div class="bg-green-50 p-6 rounded">
 
-#### Strengths 💪
+#### Strengths
 
 - Modern architecture
 - Excellent reliability
@@ -159,7 +159,7 @@ hideInToc: true
 
 <div class="bg-yellow-50 p-6 rounded">
 
-#### Considerations ⚖️
+#### Considerations
 
 - Larger install size
 - Newer ecosystem
