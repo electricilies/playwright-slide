@@ -41,12 +41,12 @@ hideInToc: true
 
 ### Playwright vs Selenium - Performance & Community
 
-| Feature              | Playwright           | Selenium                           |
-| -------------------- | -------------------- | ---------------------------------- |
-| **Speed**            | ⚡ Faster            | Slower                             |
-| **Test Reliability** | 🎯 High (less flaky) | Moderate (requires careful design) |
-| **Community Size**   | 📈 Growing rapidly   | 👥 Very large, mature              |
-| **Learning Curve**   | Moderate (new API)   | Lower (established patterns)       |
+| Feature              | Playwright         | Selenium                           |
+| -------------------- | ------------------ | ---------------------------------- |
+| **Speed**            | Faster             | Slower                             |
+| **Test Reliability** | High (less flaky)  | Moderate (requires careful design) |
+| **Community Size**   | Growing rapidly    | Very large, mature                 |
+| **Learning Curve**   | Moderate (new API) | Lower (established patterns)       |
 
 <div class="mt-8 p-4 bg-blue-50 rounded">
 
