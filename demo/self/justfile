@@ -7,6 +7,9 @@ automate-uit-tkb:
 test *args="":
   npx playwright test {{args}}
 
+test-debug *args="":
+  npx playwright test --debug {{args}}
+
 test-ui *args="":
   npx playwright test --ui {{args}}
 

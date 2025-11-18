@@ -69,9 +69,9 @@ src: ./pages/compare.md
 ---
 
 ---
-src: ./pages/when-to-use.md
+src: ./pages/advantage-and-limitation.md
 ---
 
 ---
-src: ./pages/pros-and-cons.md
+src: ./pages/when-to-use.md
 ---
