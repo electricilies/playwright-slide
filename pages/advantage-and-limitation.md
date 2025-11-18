@@ -4,7 +4,7 @@ class: text-center
 transition: slide-up
 ---
 
-# Pros and Cons
+# Advantages and Limitations
 
 Advantages and Limitations of Playwright
 
